@@ -1,0 +1,78 @@
+/* CSS file for PM data website */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.flex-container{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:center;
+	justify-content:space-around;
+}
+
+h1{
+	text-align:center;
+	color:white;
+}
+
+h2{
+	text-align:center;
+	color:white;
+}
+
+.sonic-body{
+	background-image:url("images/sonic-icon-gray.jpg");
+}
+
+table{
+	width:500px;
+	padding:20px;
+}
+
+table, th, td{
+	border:1px solid black;
+	border-collapse: collapse;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+th{
+	text-align:center;
+	background-color:white;
+}
+
+tr{
+	text-align:left;
+	background-color:white;
+}
+
+tr:hover{
+	background-color:#d9d9d9;
+}
+
+caption{
+	font-size:16pt;
+	font-weight:bold;
+	color:white;
+}
+
+table.sonic-attributes{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+table.sonic-attributes th{
+	background-color:#6699ff;
+}
+
+footer{
+	font-size:10pt;
+	text-align:center;
+	color:white;
+	clear:both;
+}
+
